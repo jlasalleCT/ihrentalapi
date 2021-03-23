@@ -1,5 +1,5 @@
 class RentalResource < JSONAPI::Resource
-    attributes :id, :title, :owner, :city, :location, :category, :bedrooms, :image, :description
+    attributes :title, :owner, :city, :location, :category, :bedrooms, :image, :description
 
     def location() {
         lat: @model.lat,
