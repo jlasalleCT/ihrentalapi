@@ -1,2 +1,2 @@
-class Rental < ActiveRecord::Base
+class Rental < ApplicationRecord
 end
